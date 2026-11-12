@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Little Surprise 💗</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: linear-gradient(135deg, #ffd6e7, #e6d5ff);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box {
+  background: rgba(255,255,255,0.8);
+  padding: 30px 20px;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 0 5px 25px #d99fbd;
+  max-width: 380px;
+}
+
+h1 {
+  color: #d64d85;
+}
+
+p {
+  color: #80516b;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+button {
+  background: #ed78a7;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#message {
+  display: none;
+}
+
+.hearts {
+  font-size: 25px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box" id="first">
+
+<div class="hearts">💕 🌸 💗</div>
+
+<h1>A Little Surprise!</h1>
+
+<p>Hey! Someone has a little surprise for you... 🥹</p>
+
+<div style="font-size:65px">🐱 🐭</div>
+
+<button onclick="openSurprise()">
+Open Your Surprise 🎁
+</button>
+
+</div>
+
+<div class="box" id="message">
+
+<div class="hearts">💗 🦋 💕</div>
+
+<h1>U Are My Special Person! 🥹</h1>
+
+<p>
+Thank you for making me happy
+since the first day until today. 💗
+<br><br>
+
+Thank you for choosing me
+as your best friend. 🫶🏻
+<br><br>
+
+Every little moment with you
+is special and precious.
+<br><br>
+
+Stay happy and keep smiling! 🌸
+</p>
+
+<h2 style="color:#d64d85">
+Forever Grateful ♡
+</h2>
+
+<div class="hearts">💕 🌷 💗</div>
+
+</div>
+
+<script>
+
+function openSurprise() {
+  document.getElementById("first").style.display = "none";
+  document.getElementById("message").style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
